@@ -1,5 +1,7 @@
 from src import TickTackToe, Player
+import os
 
+cls = lambda: os.system('cls' if os.name == 'nt' else 'clear')
 
 def main():
     # get player names
@@ -28,6 +30,9 @@ def main():
                 continue
             # add the move to the board
             game.add_move(game.current_player, position)
+            
+            # clear the screen
+            cls()
         except ValueError:
             print("Invalid input. Enter a number between 1 and 9.")
 
