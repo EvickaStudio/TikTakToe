@@ -1,3 +1,3 @@
-# TikTakToe
+# Tic Tac Toe
 
-Simple Pyton implementation of the TikTakToe game.
+Simple Pyton implementation of the Tic Tac Toe game.
